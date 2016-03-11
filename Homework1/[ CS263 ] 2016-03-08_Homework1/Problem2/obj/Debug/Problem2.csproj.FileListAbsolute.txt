@@ -1,0 +1,6 @@
+C:\Users\Yiling\Desktop\CS263\Homework\[ CS263 ] 2016-03-08_Homework1\Problem2\bin\Debug\Problem2.exe.config
+C:\Users\Yiling\Desktop\CS263\Homework\[ CS263 ] 2016-03-08_Homework1\Problem2\obj\Debug\Problem2.csprojResolveAssemblyReference.cache
+C:\Users\Yiling\Desktop\CS263\Homework\[ CS263 ] 2016-03-08_Homework1\Problem2\bin\Debug\Problem2.exe
+C:\Users\Yiling\Desktop\CS263\Homework\[ CS263 ] 2016-03-08_Homework1\Problem2\bin\Debug\Problem2.pdb
+C:\Users\Yiling\Desktop\CS263\Homework\[ CS263 ] 2016-03-08_Homework1\Problem2\obj\Debug\Problem2.exe
+C:\Users\Yiling\Desktop\CS263\Homework\[ CS263 ] 2016-03-08_Homework1\Problem2\obj\Debug\Problem2.pdb

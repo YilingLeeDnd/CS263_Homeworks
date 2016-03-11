@@ -1,0 +1,9 @@
+c:\users\yiling\documents\visual studio 2013\Projects\[ CS263 ] 2016-03-08\Problem1\bin\Debug\Problem1.exe.config
+c:\Users\Yiling\Documents\Visual Studio 2013\Projects\[ CS263 ] 2016-03-08\Problem1\obj\Debug\Problem1.csprojResolveAssemblyReference.cache
+C:\Users\Yiling\Documents\Visual Studio 2013\Projects\[ CS263 ] 2016-03-08\Problem1\bin\Debug\Problem1.exe
+C:\Users\Yiling\Documents\Visual Studio 2013\Projects\[ CS263 ] 2016-03-08\Problem1\bin\Debug\Problem1.pdb
+C:\Users\Yiling\Documents\Visual Studio 2013\Projects\[ CS263 ] 2016-03-08\Problem1\obj\Debug\Problem1.exe
+C:\Users\Yiling\Documents\Visual Studio 2013\Projects\[ CS263 ] 2016-03-08\Problem1\obj\Debug\Problem1.pdb
+C:\Users\Yiling\Desktop\CS263\Homework\[ CS263 ] 2016-03-08_Homework1\Problem1\bin\Debug\Problem1.exe.config
+C:\Users\Yiling\Desktop\CS263\Homework\[ CS263 ] 2016-03-08_Homework1\Problem1\obj\Debug\Problem1.exe
+C:\Users\Yiling\Desktop\CS263\Homework\[ CS263 ] 2016-03-08_Homework1\Problem1\obj\Debug\Problem1.pdb

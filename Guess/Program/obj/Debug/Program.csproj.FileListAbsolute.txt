@@ -1,0 +1,6 @@
+C:\Users\Yiling\Desktop\CS263\Homework\猜數字\Program\bin\Debug\Program.exe.config
+C:\Users\Yiling\Desktop\CS263\Homework\猜數字\Program\bin\Debug\Program.exe
+C:\Users\Yiling\Desktop\CS263\Homework\猜數字\Program\bin\Debug\Program.pdb
+C:\Users\Yiling\Desktop\CS263\Homework\猜數字\Program\obj\Debug\Program.csprojResolveAssemblyReference.cache
+C:\Users\Yiling\Desktop\CS263\Homework\猜數字\Program\obj\Debug\Program.exe
+C:\Users\Yiling\Desktop\CS263\Homework\猜數字\Program\obj\Debug\Program.pdb

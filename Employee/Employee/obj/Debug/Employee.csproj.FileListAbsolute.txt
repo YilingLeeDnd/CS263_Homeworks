@@ -1,0 +1,9 @@
+C:\Users\Yiling\Desktop\CS263\Homework\Employee\Employee\bin\Debug\Employee.exe.config
+C:\Users\Yiling\Desktop\CS263\Homework\Employee\Employee\bin\Debug\Employee.exe
+C:\Users\Yiling\Desktop\CS263\Homework\Employee\Employee\bin\Debug\Employee.pdb
+C:\Users\Yiling\Desktop\CS263\Homework\Employee\Employee\obj\Debug\Employee.csprojResolveAssemblyReference.cache
+C:\Users\Yiling\Desktop\CS263\Homework\Employee\Employee\obj\Debug\Employee.exe
+C:\Users\Yiling\Desktop\CS263\Homework\Employee\Employee\obj\Debug\Employee.pdb
+C:\Users\Yiling\Desktop\CS263\CS263_Homeworks\Employee\Employee\bin\Debug\Employee.exe.config
+C:\Users\Yiling\Desktop\CS263\CS263_Homeworks\Employee\Employee\obj\Debug\Employee.exe
+C:\Users\Yiling\Desktop\CS263\CS263_Homeworks\Employee\Employee\obj\Debug\Employee.pdb

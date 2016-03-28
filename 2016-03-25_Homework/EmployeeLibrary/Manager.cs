@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeLibrary
 {
-    public class Manager : Sales
+    public class Manager : Employee
     {
         private int teamBouns;
 
@@ -22,35 +22,31 @@ namespace EmployeeLibrary
             }
         }
 
-        public Manager(string id, string name, int baseSalary, int performance, int teamBouns)
-            : base(id, name, baseSalary, performance)
+        public Manager(string id, string name, int baseSalary, int teamBouns)
+            : base(id, name, baseSalary)
         {
             this.TeamBouns = teamBouns;
         }
 
-        public Manager(string id, string name, string baseSalary, string performance, string teamBouns)
-            : this(id, name, int.Parse(baseSalary), int.Parse(performance), int.Parse(teamBouns))
+        public Manager(string id, string name, string baseSalary, string teamBouns)
+            : this(id, name, int.Parse(baseSalary), int.Parse(teamBouns))
         { }
 
-        public override int Performance
+        public override double BaseSalary
         {
             get
             {
-                return this.Performance;
+                return base.BaseSalary;
             }
-
             set
             {
-                if (value < 0)
-                    base.performance = 0;
-                else
-                    base.performance = value;
+                base.baseSalary = 22000;
             }
         }
 
         public override string ToString()
         {
-            return base.ToString() + string.Format("\n業績:{0}\nTeam奬金:{0}", this.Performance, this.TeamBouns);
+            return base.ToString() + string.Format("\nTeam奬金:{0}", this.TeamBouns);
         }
     }
 }

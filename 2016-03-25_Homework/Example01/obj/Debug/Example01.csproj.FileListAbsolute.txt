@@ -23,3 +23,14 @@ D:\CS263_Homeworks\2016-03-25_Homework\Example01\obj\Debug\Example01.csprojResol
 D:\CS263_Homeworks\2016-03-25_Homework\Example01\obj\Debug\Example01.Form1.resources
 D:\CS263_Homeworks\2016-03-25_Homework\Example01\obj\Debug\Example01.Properties.Resources.resources
 D:\CS263_Homeworks\2016-03-25_Homework\Example01\obj\Debug\Example01.csproj.GenerateResource.Cache
+D:\2016-03-25_Homework\Example01\bin\Debug\Example01.exe.config
+D:\2016-03-25_Homework\Example01\obj\Debug\Example01.exe
+D:\2016-03-25_Homework\Example01\obj\Debug\Example01.pdb
+D:\2016-03-25_Homework\Example01\bin\Debug\Example01.exe
+D:\2016-03-25_Homework\Example01\bin\Debug\Example01.pdb
+D:\2016-03-25_Homework\Example01\bin\Debug\EmployeeLibrary.dll
+D:\2016-03-25_Homework\Example01\bin\Debug\EmployeeLibrary.pdb
+D:\2016-03-25_Homework\Example01\obj\Debug\Example01.csprojResolveAssemblyReference.cache
+D:\2016-03-25_Homework\Example01\obj\Debug\Example01.Form1.resources
+D:\2016-03-25_Homework\Example01\obj\Debug\Example01.Properties.Resources.resources
+D:\2016-03-25_Homework\Example01\obj\Debug\Example01.csproj.GenerateResource.Cache

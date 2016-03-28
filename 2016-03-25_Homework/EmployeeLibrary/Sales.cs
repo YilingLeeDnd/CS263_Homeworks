@@ -8,9 +8,9 @@ namespace EmployeeLibrary
 {
     public class Sales : Employee
     {
-        protected int performance;
+        private int performance;
 
-        virtual public int Performance
+        public int Performance
         {
             get { return this.performance; }
             set

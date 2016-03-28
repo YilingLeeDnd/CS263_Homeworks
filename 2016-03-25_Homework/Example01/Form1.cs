@@ -35,8 +35,7 @@ namespace Example01
             }
             else
             {
-                performanceTextBox.Text = string.Empty;
-                employee = new Manager(idTextBox.Text, nameTextBox.Text, baseSalaryTextBox.Text, performanceTextBox.Text, teamBounsTextBox.Text);
+                employee = new Manager(idTextBox.Text, nameTextBox.Text, baseSalaryTextBox.Text, teamBounsTextBox.Text);
             }
 
             employees.Add(employee);

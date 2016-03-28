@@ -8,3 +8,7 @@ D:\CS263_Homeworks\2016-03-25_Homework\EmployeeLibrary\bin\Debug\EmployeeLibrary
 D:\CS263_Homeworks\2016-03-25_Homework\EmployeeLibrary\obj\Debug\EmployeeLibrary.csprojResolveAssemblyReference.cache
 D:\CS263_Homeworks\2016-03-25_Homework\EmployeeLibrary\obj\Debug\EmployeeLibrary.dll
 D:\CS263_Homeworks\2016-03-25_Homework\EmployeeLibrary\obj\Debug\EmployeeLibrary.pdb
+D:\2016-03-25_Homework\EmployeeLibrary\bin\Debug\EmployeeLibrary.dll
+D:\2016-03-25_Homework\EmployeeLibrary\bin\Debug\EmployeeLibrary.pdb
+D:\2016-03-25_Homework\EmployeeLibrary\obj\Debug\EmployeeLibrary.dll
+D:\2016-03-25_Homework\EmployeeLibrary\obj\Debug\EmployeeLibrary.pdb

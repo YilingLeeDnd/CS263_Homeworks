@@ -47,8 +47,8 @@
             // addButton
             // 
             this.addButton.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.addButton.Location = new System.Drawing.Point(306, 190);
-            this.addButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.addButton.Location = new System.Drawing.Point(306, 152);
+            this.addButton.Margin = new System.Windows.Forms.Padding(2);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(126, 41);
             this.addButton.TabIndex = 0;
@@ -93,7 +93,7 @@
             // 
             this.idTextBox.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.idTextBox.Location = new System.Drawing.Point(161, 38);
-            this.idTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.idTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.idTextBox.Name = "idTextBox";
             this.idTextBox.Size = new System.Drawing.Size(108, 36);
             this.idTextBox.TabIndex = 4;
@@ -102,7 +102,7 @@
             // 
             this.nameTextBox.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.nameTextBox.Location = new System.Drawing.Point(161, 78);
-            this.nameTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nameTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.nameTextBox.Name = "nameTextBox";
             this.nameTextBox.Size = new System.Drawing.Size(108, 36);
             this.nameTextBox.TabIndex = 5;
@@ -111,7 +111,7 @@
             // 
             this.baseSalaryTextBox.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.baseSalaryTextBox.Location = new System.Drawing.Point(161, 117);
-            this.baseSalaryTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.baseSalaryTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.baseSalaryTextBox.Name = "baseSalaryTextBox";
             this.baseSalaryTextBox.Size = new System.Drawing.Size(108, 36);
             this.baseSalaryTextBox.TabIndex = 6;
@@ -119,8 +119,8 @@
             // infoRichTextBox
             // 
             this.infoRichTextBox.Font = new System.Drawing.Font("微軟正黑體", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.infoRichTextBox.Location = new System.Drawing.Point(45, 257);
-            this.infoRichTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.infoRichTextBox.Location = new System.Drawing.Point(45, 210);
+            this.infoRichTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.infoRichTextBox.Name = "infoRichTextBox";
             this.infoRichTextBox.Size = new System.Drawing.Size(453, 197);
             this.infoRichTextBox.TabIndex = 7;
@@ -135,7 +135,7 @@
             "業務",
             "主管"});
             this.employeeCatagory.Location = new System.Drawing.Point(410, 38);
-            this.employeeCatagory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.employeeCatagory.Margin = new System.Windows.Forms.Padding(2);
             this.employeeCatagory.Name = "employeeCatagory";
             this.employeeCatagory.Size = new System.Drawing.Size(108, 32);
             this.employeeCatagory.TabIndex = 8;
@@ -156,7 +156,7 @@
             // 
             this.performanceTextBox.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.performanceTextBox.Location = new System.Drawing.Point(161, 157);
-            this.performanceTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.performanceTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.performanceTextBox.Name = "performanceTextBox";
             this.performanceTextBox.Size = new System.Drawing.Size(108, 36);
             this.performanceTextBox.TabIndex = 11;
@@ -176,7 +176,7 @@
             // 
             this.teamBounsLabel.AutoSize = true;
             this.teamBounsLabel.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.teamBounsLabel.Location = new System.Drawing.Point(40, 203);
+            this.teamBounsLabel.Location = new System.Drawing.Point(40, 160);
             this.teamBounsLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.teamBounsLabel.Name = "teamBounsLabel";
             this.teamBounsLabel.Size = new System.Drawing.Size(117, 28);
@@ -186,7 +186,7 @@
             // teamBounsTextBox
             // 
             this.teamBounsTextBox.Font = new System.Drawing.Font("微軟正黑體", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.teamBounsTextBox.Location = new System.Drawing.Point(161, 200);
+            this.teamBounsTextBox.Location = new System.Drawing.Point(161, 157);
             this.teamBounsTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.teamBounsTextBox.Name = "teamBounsTextBox";
             this.teamBounsTextBox.Size = new System.Drawing.Size(108, 36);
@@ -196,7 +196,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(553, 465);
+            this.ClientSize = new System.Drawing.Size(553, 432);
             this.Controls.Add(this.teamBounsTextBox);
             this.Controls.Add(this.teamBounsLabel);
             this.Controls.Add(this.performanceTextBox);
@@ -211,7 +211,7 @@
             this.Controls.Add(this.nameLabel);
             this.Controls.Add(this.idLabel);
             this.Controls.Add(this.addButton);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

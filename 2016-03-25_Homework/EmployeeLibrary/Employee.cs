@@ -47,7 +47,6 @@ namespace EmployeeLibrary
             string result = string.Empty;
             result += string.Format("員工編號:{0}, 姓名:{1}\n", this.Id, this.Name);
             result += string.Format("基本薪資:{0}", this.BaseSalary);
-
             return result;
         }
     }

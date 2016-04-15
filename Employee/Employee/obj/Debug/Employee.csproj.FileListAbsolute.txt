@@ -7,3 +7,6 @@ C:\Users\Yiling\Desktop\CS263\Homework\Employee\Employee\obj\Debug\Employee.pdb
 C:\Users\Yiling\Desktop\CS263\CS263_Homeworks\Employee\Employee\bin\Debug\Employee.exe.config
 C:\Users\Yiling\Desktop\CS263\CS263_Homeworks\Employee\Employee\obj\Debug\Employee.exe
 C:\Users\Yiling\Desktop\CS263\CS263_Homeworks\Employee\Employee\obj\Debug\Employee.pdb
+D:\CS263\CS263_Homeworks\Employee\Employee\bin\Debug\Employee.exe.config
+D:\CS263\CS263_Homeworks\Employee\Employee\obj\Debug\Employee.exe
+D:\CS263\CS263_Homeworks\Employee\Employee\obj\Debug\Employee.pdb

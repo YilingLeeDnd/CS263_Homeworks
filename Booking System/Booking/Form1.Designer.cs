@@ -32,11 +32,9 @@
             this.infoRichTextBox = new System.Windows.Forms.RichTextBox();
             this.ticketComboBox = new System.Windows.Forms.ComboBox();
             this.numberOfPeopleLabel = new System.Windows.Forms.Label();
-            this.qtyTextBox = new System.Windows.Forms.TextBox();
+            this.numberOfPeopleTextBox = new System.Windows.Forms.TextBox();
             this.addButton = new System.Windows.Forms.Button();
             this.priceTextBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.totalButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -84,18 +82,18 @@
             this.numberOfPeopleLabel.TabIndex = 0;
             this.numberOfPeopleLabel.Text = "張數";
             // 
-            // qtyTextBox
+            // numberOfPeopleTextBox
             // 
-            this.qtyTextBox.Font = new System.Drawing.Font("微軟正黑體", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.qtyTextBox.Location = new System.Drawing.Point(77, 62);
-            this.qtyTextBox.Name = "qtyTextBox";
-            this.qtyTextBox.Size = new System.Drawing.Size(100, 35);
-            this.qtyTextBox.TabIndex = 3;
+            this.numberOfPeopleTextBox.Font = new System.Drawing.Font("微軟正黑體", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.numberOfPeopleTextBox.Location = new System.Drawing.Point(77, 62);
+            this.numberOfPeopleTextBox.Name = "numberOfPeopleTextBox";
+            this.numberOfPeopleTextBox.Size = new System.Drawing.Size(100, 35);
+            this.numberOfPeopleTextBox.TabIndex = 3;
             // 
             // addButton
             // 
             this.addButton.Font = new System.Drawing.Font("微軟正黑體", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.addButton.Location = new System.Drawing.Point(425, 10);
+            this.addButton.Location = new System.Drawing.Point(294, 62);
             this.addButton.Name = "addButton";
             this.addButton.Size = new System.Drawing.Size(111, 35);
             this.addButton.TabIndex = 4;
@@ -106,42 +104,19 @@
             // priceTextBox
             // 
             this.priceTextBox.Font = new System.Drawing.Font("微軟正黑體", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.priceTextBox.Location = new System.Drawing.Point(305, 62);
+            this.priceTextBox.Location = new System.Drawing.Point(188, 62);
             this.priceTextBox.Name = "priceTextBox";
             this.priceTextBox.Size = new System.Drawing.Size(100, 35);
             this.priceTextBox.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("微軟正黑體", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.Location = new System.Drawing.Point(245, 65);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 27);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "單價";
-            // 
-            // totalButton
-            // 
-            this.totalButton.Font = new System.Drawing.Font("微軟正黑體", 14.26415F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.totalButton.Location = new System.Drawing.Point(425, 62);
-            this.totalButton.Name = "totalButton";
-            this.totalButton.Size = new System.Drawing.Size(111, 35);
-            this.totalButton.TabIndex = 7;
-            this.totalButton.Text = "結帳";
-            this.totalButton.UseVisualStyleBackColor = true;
-            this.totalButton.Click += new System.EventHandler(this.totalButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(557, 318);
-            this.Controls.Add(this.totalButton);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.priceTextBox);
-            this.Controls.Add(this.qtyTextBox);
+            this.Controls.Add(this.numberOfPeopleTextBox);
             this.Controls.Add(this.ticketComboBox);
             this.Controls.Add(this.infoRichTextBox);
             this.Controls.Add(this.numberOfPeopleLabel);
@@ -159,10 +134,8 @@
         private System.Windows.Forms.RichTextBox infoRichTextBox;
         private System.Windows.Forms.ComboBox ticketComboBox;
         private System.Windows.Forms.Label numberOfPeopleLabel;
-        private System.Windows.Forms.TextBox qtyTextBox;
+        private System.Windows.Forms.TextBox numberOfPeopleTextBox;
         private System.Windows.Forms.Button addButton;
         private System.Windows.Forms.TextBox priceTextBox;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button totalButton;
     }
 }

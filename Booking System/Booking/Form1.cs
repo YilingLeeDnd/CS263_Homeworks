@@ -14,94 +14,63 @@ namespace Booking
     public partial class Form1 : Form
     {
         private List<Ticket> tickets;
-        public Student student = new Student();
-        public Kids kids = new Kids();
-        public LittleKids littleKids = new LittleKids();
-        public Visa visa = new Visa();
-        private Ticket ticket = new Ticket();
-        public double discount;
-        public double price;
-        public double totalPrice;
 
         public Form1()
         {
             InitializeComponent();
             tickets = new List<Ticket>();
+            //priceTextBox.Text = string.Format("{0}", 320);
+            ticketComboBox.SelectedIndex = 0;
+        }
+
+        private void addButton_Click(object sender, EventArgs e)
+        {
+            Ticket ticket = null;
+            if (ticketComboBox.SelectedIndex == 0)
+            {
+                ticket = new Ticket(ticketComboBox.Text, numberOfPeopleTextBox.Text, priceTextBox.Text);
+            }
+            else if (ticketComboBox.SelectedIndex == 1)
+            {
+                ticket = new Student(ticketComboBox.Text, numberOfPeopleTextBox.Text, priceTextBox.Text);
+            }
+            else if (ticketComboBox.SelectedIndex == 2)
+            {
+                ticket = new Kids(ticketComboBox.Text, numberOfPeopleTextBox.Text, priceTextBox.Text);
+            }
+            else if (ticketComboBox.SelectedIndex == 3)
+            {
+                ticket = new LittleKids(ticketComboBox.Text, numberOfPeopleTextBox.Text, priceTextBox.Text);
+            }
+            else
+            {
+                ticket = new Visa(ticketComboBox.Text, numberOfPeopleTextBox.Text, priceTextBox.Text);
+            }
+
+            tickets.Add(ticket);
             UpdateTicketsInfo();
         }
 
         private void UpdateTicketsInfo()
         {
             infoRichTextBox.Text = string.Empty;
-            qtyTextBox.Text = string.Empty;
-            price = ticket.normalTicket;
-            discount = 1;
-            ticketComboBox.SelectedIndex = 0;
-            priceTextBox.Text = string.Format("{0}", ticket.normalTicket);
+            numberOfPeopleTextBox.Text = string.Empty;
+            foreach (Ticket ticket in tickets)
+            {
+                infoRichTextBox.Text += string.Format("{0}\n", ticket);
+            }
         }
 
         private void ticketComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            checkValue();
-            priceTextBox.Text = string.Format("{0}", price);
-        }
-
-        private void checkValue()
-        {
-            switch (ticketComboBox.SelectedIndex)
-            {
-                case 0:
-                    discount = 1;
-                    price = ticket.Discount;
-                    break;
-
-                case 1:
-                    discount = student.Discount;
-                    price = ticket.Discount;
-                    break;
-
-                case 2:
-                    discount = kids.Discount;
-                    price = ticket.Discount;
-                    break;
-
-                case 3:
-                    discount = littleKids.Discount;
-                    price = ticket.Discount;
-                    break;
-
-                case 4:
-                    discount = visa.Discount;
-                    price = ticket.Discount;
-                    break;
-
-                default:
-                    discount = 1;
-                    price = ticket.Discount;
-                    break;
-            }
-        }
-
-        private void addButton_Click(object sender, EventArgs e)
-        {
-            checkValue();
-            ticket = new Ticket(ticketComboBox.SelectedIndex, qtyTextBox.Text, priceTextBox.Text);
-            tickets.Add(ticket);
-            foreach (Ticket ticket in tickets)
-            {
-                infoRichTextBox.Text += string.Format("{0}\n", ticket) + infoRichTextBox.Text;
-            }
-            UpdateTicketsInfo();
-        }
-
-        private void totalButton_Click(object sender, EventArgs e)
-        {
-            totalPrice = 0;
-            foreach (Ticket ticket in tickets)
-            {
-                totalPrice += ticket.SumPrice;
-            }
-            infoRichTextBox.Text = string.Format("總金額為:{0}\r\n", totalPrice) + infoRichTextBox.Text;
+            //numberOfPeopleLabel.Visible = ticketComboBox.SelectedIndex == 1;
+            //numberOfPeopleTextBox.Visible = ticketComboBox.SelectedIndex == 1;
+            //    numberOfPeopleLabel.Visible = ticketComboBox.SelectedIndex == 2;
+            //    numberOfPeopleTextBox.Visible = ticketComboBox.SelectedIndex == 2;
+            //    numberOfPeopleLabel.Visible = ticketComboBox.SelectedIndex == 3;
+            //    numberOfPeopleTextBox.Visible = ticketComboBox.SelectedIndex == 3;
+            //    numberOfPeopleLabel.Visible = ticketComboBox.SelectedIndex == 4;
+            //    numberOfPeopleTextBox.Visible = ticketComboBox.SelectedIndex == 4;
         }
     }
 }

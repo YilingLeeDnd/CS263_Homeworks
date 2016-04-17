@@ -50,7 +50,7 @@ namespace TicketLibrary
             string result = string.Empty;
             result += string.Format("票券類型:{0}\n", this.TicketKind);
             result += string.Format("張數:{0},單價:{1}\n", this.Qty, this.Price);
-            result += string.Format("小計:{0}\n", this.TotalPrice);
+            result += string.Format("小計:{0}", this.TotalPrice);
             return result;
         }
     }

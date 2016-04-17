@@ -41,18 +41,14 @@ namespace Booking
             checkValue();
             ticket = new Ticket(ticketComboBox.SelectedIndex, qtyComboBox.SelectedIndex + 1, discount);
             tickets.Add(ticket);
-            foreach (Ticket t in tickets)
-            {
-                infoRichTextBox.Text = string.Format("{0}\n", t) + infoRichTextBox.Text;
-            }
+            UpdateTicketInfo();
         }
 
         private void totalButton_Click(object sender, EventArgs e)
         {
-            sumPrice = 0;
             foreach (Ticket t in tickets)
             {
-                sumPrice += ticket.TotalPrice;
+                sumPrice += t.TotalPrice;
             }
             infoRichTextBox.Text = string.Format("總金額為:{0}\n", sumPrice) + infoRichTextBox.Text;
         }
@@ -62,7 +58,12 @@ namespace Booking
             infoRichTextBox.Text = string.Empty;
             discount = 1;
             ticketComboBox.SelectedIndex = 0;
+            sumPrice = 0;
             priceTextBox.Text = string.Format("{0}", ticket.NormalTicket);
+            foreach (Ticket t in tickets)
+            {
+                infoRichTextBox.Text = string.Format("{0}\n", t) + infoRichTextBox.Text;
+            }
         }
 
         private void checkValue()
